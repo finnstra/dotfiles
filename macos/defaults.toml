@@ -1,0 +1,4 @@
+["com.apple.music"]
+preferredDolbyAtmosPlaySetting = 30 # Don't use Dolby Atmos
+preferredDownloadAudioQuality = 15
+preferredStreamPlaybackAudioQuality = 20 # Hi-Res playback
