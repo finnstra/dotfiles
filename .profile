@@ -1,3 +1,5 @@
+# Profile files are usually non-shell-specific logic that you will always need. ZSH stuff goes in .zshrc
+
 # I like nvim, let's use that.
 export EDITOR=nvim
 
