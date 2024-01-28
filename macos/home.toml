@@ -1,4 +1,4 @@
-# Use this to home-specific values. Specifically, configs
+# Use this to home-specific values.
 
 ["com.apple.screensaver"]
 askForPassword = 1
