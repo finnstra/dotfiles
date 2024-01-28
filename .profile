@@ -14,3 +14,7 @@ alias cls='clear'
 alias tf='terraform'
 alias zsh-config="vi ~/.zshrc"
 alias v='nvim'
+
+# Music
+alias stop-discord-music="launchctl unload homebrew.mxcl.apple-music-discord-rpc.plist"
+alias start-discord-music="launchctl load homebrew.mxcl.apple-music-discord-rpc.plist"

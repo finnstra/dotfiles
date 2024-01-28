@@ -1,0 +1,10 @@
+# Use this to home-specific values. Specifically, configs
+
+["com.apple.screensaver"]
+askForPassword = 1
+
+["com.apple.screencapture"]
+location = "~/Desktop/Screenshots"
+
+["/Library/Preferences/com.apple.alf"] # Enable the firewall
+globalstate = 1
