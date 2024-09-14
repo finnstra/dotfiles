@@ -34,41 +34,25 @@ cask "google-chrome@beta"
 cask "google-cloud-sdk"
 cask "handbrake"
 cask "iterm2"
-cask "microsoft-edge"
-cask "microsoft-office"
 cask "native-access"
 cask "notion"
-cask "plover"
 cask "slack"
 cask "splice"
 cask "spotify"
-cask "steam"
 cask "telegram"
 cask "ticktick"
 cask "visual-studio-code"
 cask "vlc@nightly"
-cask "whatsapp"
 cask "wireshark"
 mas "1Password for Safari", id: 1569813296
-mas "Betternet VPN", id: 1028905953
 mas "ColorSlurp", id: 1287239339
 mas "Culture Concorde", id: 1088330492
 mas "Darkroom", id: 953286746
-mas "Disk Speed Test", id: 425264550
 mas "File Viewer", id: 495987613
-mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
-mas "iMovie", id: 408981434
-mas "Ivory", id: 6444602274
-mas "Keynote", id: 409183694
 mas "Logic Pro", id: 634148309
 mas "NepTunes", id: 1006739057
-mas "Numbers", id: 409203825
-mas "Onigiri", id: 1639917298
-mas "Pages", id: 409201541
-mas "Skitch", id: 425955336
 mas "The Unarchiver", id: 425424353
-mas "Twitter", id: 409789998
 vscode "golang.go"
 vscode "grapecity.gc-excelviewer"
 vscode "gruntfuggly.todo-tree"
