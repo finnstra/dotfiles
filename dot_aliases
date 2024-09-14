@@ -1,0 +1,17 @@
+# This is where aliases should be stored, then imported into .zshrc,
+# which should help clean things up. 
+
+alias cls='clear'
+alias tf="terraform"
+alias zsh-config="vi ~/.zshrc"
+alias vi="nvim"
+alias v="nvim"
+
+# Converts WAV to AIFF. This command needs to be updated to preserve
+# the original sample rate and bit rate, otherwise files will
+# default to 16-bit while preserving the sample rate. This is okay
+# for DJ stuff, but probaby not something you want for actual
+# production. So be careful!!!!!!
+wavtoaiff() {
+	ffmpeg -i "$1" -write_id3v2 1 -c:v copy "$1".aiff
+}

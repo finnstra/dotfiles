@@ -16,9 +16,6 @@ export EDITOR="code --wait"
 # Set up prompt from @jaredallerd's dotfiles
 PROMPT='%{$fg[cyan]%}日本 %{$fg[magenta]%}[%c] %{$reset_color%}'
 RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status)%{$reset_color%}'
-
-# Chrome Driver
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_DIRTY=""
@@ -30,14 +27,5 @@ ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%} ➦"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%} ✂"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[grey]%} ✱"
 
-# Add aliases
-alias cls='clear'
-alias tf="terraform"
-alias zsh-config="vi ~/.zshrc"
-alias vi="nvim"
-alias v="nvim"
-alias poetry="/Users/brad/.local/bin/poetry"
-
-wavtoaiff() {
-	ffmpeg -i "$1" -write_id3v2 1 -c:v copy "$1".aiff
-}
+# Add the aliases file.
+source $HOME/.aliases
