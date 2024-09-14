@@ -10,7 +10,7 @@ unsetopt LIST_BEEP
 # Enable tab completion
 autoload -Uz compinit && compinit
 
-# Set my editor as Vim
+# Set my editor as VSCode (at least for now)
 export EDITOR="code --wait"
 
 # Set up prompt from @jaredallerd's dotfiles
