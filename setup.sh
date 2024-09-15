@@ -18,6 +18,9 @@ run_post_steps() {
     echo "Dev: Logging into Github CLI"
     gh auth login
     eval "$(ssh-agent -s)" # .ssh/config is already set up in Chezmoi.
+    echo "Adding ZSH plugins"
+    sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+    sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     echo "DONE :D"
 }
 run_post_steps
