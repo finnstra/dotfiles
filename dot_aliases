@@ -7,11 +7,11 @@ alias zsh-config="vi ~/.zshrc"
 alias vi="nvim"
 alias v="nvim"
 
-# Converts WAV to AIFF. This command needs to be updated to preserve
-# the original sample rate and bit rate, otherwise files will
-# default to 16-bit while preserving the sample rate. This is okay
-# for DJ stuff, but probaby not something you want for actual
-# production. So be careful!!!!!!
+# Converts WAV to AIFF. This command specifically converts any provided WAV
+# file into 44.1/16 (CD quality) PCM files. Without these flags, ffmpeg will
+# convert in the source file's original sample rate/bit depth, which is
+# unwanted for situations like DJ-ing, where there is little benefit. So,
+# if you use this command, be aware that it isn't a 'true' copy.
 wavtoaiff() {
-	ffmpeg -i "$1" -write_id3v2 1 -c:v copy "$1".aiff
+    ffmpeg -i "$1" -ar 44100 -acodec pcm_s16be -c:v copy "${1%%.*}".aiff
 }
