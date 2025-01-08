@@ -9,6 +9,7 @@ dockutil --no-restart --add "/Applications/Telegram.app"
 dockutil --no-restart --add "/Applications/rekordbox 6/rekordbox.app"
 dockutil --no-restart --add "/Applications/Discord.app"
 dockutil --no-restart --add "/Applications/1Password.app"
+dockutil --no-restart --add "/Applications/TickTick.app"
 
 killall Dock
 
