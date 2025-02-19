@@ -24,7 +24,7 @@ brew "shpotify"
 brew "wget"
 brew "nextfire/tap/apple-music-discord-rpc"
 cask "1password"
-cask "ableton-live-suite@12"
+cask "ableton-live-suite@10"
 cask "adobe-creative-cloud"
 cask "discord"
 cask "docker"
@@ -57,6 +57,8 @@ mas "File Viewer", id: 495987613
 mas "GIPHY CAPTURE", id: 668208984
 mas "Logic Pro", id: 634148309
 mas "NepTunes", id: 1006739057
+mas "Onigiri", id: 1639917298
+mas "Skitch", id: 425955336
 mas "The Unarchiver", id: 425424353
 vscode "golang.go"
 vscode "grapecity.gc-excelviewer"
