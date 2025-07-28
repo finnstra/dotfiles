@@ -9,9 +9,11 @@ brew "coreutils"
 brew "dockutil"
 brew "harfbuzz"
 brew "leptonica"
+brew "libvpx"
 brew "tesseract"
 brew "ffmpeg"
 brew "gh"
+brew "ghostscript"
 brew "git"
 brew "go"
 brew "gobject-introspection"
@@ -19,20 +21,24 @@ brew "imagemagick"
 brew "mas"
 brew "neovim"
 brew "nmap"
+brew "pipx"
 brew "rclone"
 brew "shpotify"
+brew "sox"
 brew "wget"
+brew "yt-dlp"
 brew "nextfire/tap/apple-music-discord-rpc"
 cask "1password"
 cask "ableton-live-suite@10"
 cask "adobe-creative-cloud"
 cask "discord"
-cask "docker"
+cask "docker-desktop"
 cask "dropbox"
 cask "figma"
+cask "gcloud-cli"
+cask "google-chrome"
 cask "google-chrome@beta"
-cask "google-cloud-sdk"
-cask "handbrake"
+cask "handbrake-app"
 cask "iterm2"
 cask "native-access"
 cask "notion"
@@ -47,21 +53,7 @@ cask "telegram"
 cask "transcribe"
 cask "visual-studio-code"
 cask "vlc@nightly"
-cask "wireshark"
-mas "1Password for Safari", id: 1569813296
-mas "ColorSlurp", id: 1287239339
-mas "Culture Concorde", id: 1088330492
-mas "Darkroom", id: 953286746
-mas "File Viewer", id: 495987613
-mas "Flow", id: 1423210932
-mas "GIPHY CAPTURE", id: 668208984
-mas "Logic Pro", id: 634148309
-mas "NepTunes", id: 1006739057
-mas "Onigiri", id: 1639917298
-mas "Skitch", id: 425955336
-mas "The Unarchiver", id: 425424353
-mas "TickTick", id: 966085870
-mas "Tomito", id: 1526042938
+cask "wireshark-app"
 vscode "golang.go"
 vscode "grapecity.gc-excelviewer"
 vscode "gruntfuggly.todo-tree"
@@ -72,6 +64,7 @@ vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-toolsai.jupyter"
 vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
